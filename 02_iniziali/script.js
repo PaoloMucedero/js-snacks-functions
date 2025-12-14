@@ -4,12 +4,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 /* Aperto ticket per verifica */ 
 // Dichiara la funzione qui. 
-function getIniziali(nameArray){
-    let result = [];
-    for(let i = 0; i < nameArray.length; i++){
-        result.push(nameArray[i][0]);
+function getIniziali(nameArray){/* Funzione che cerca iniziali delle stringhe contenute in un array */
+    let result = [];/* variabile che salva il risultato in un nuovo array */
+    for(let i = 0; i < nameArray.length; i++){/* Ciclo per  */
+        result.push(nameArray[i][0]);/* .push serve per "spingere" il risultato in coda al nuovo array che verrà creato per contenere quel risultato */
     }
-    return result;
+    return result;/* Salvo il risultato per richiamarlo in console quando serve */
 }
 
 
